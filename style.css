@@ -72,16 +72,24 @@ hr {
 }
 
 .password-blocks {
-    margin-top: 35px;
+    width: 446px;
+    margin: 35px auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    /* padding: 4px 16px; */
 }
-.text-props {
+
+.box-props{
     width: 211px;
     height: 39px;
     border-radius: 6px;
     background: #273549;
-    margin: 0 17px;
+    padding: 4px 16px;
+    box-sizing: border-box;
+}
+
+.text-props {
+    margin: 0;
     color: #55F991;
     text-align: center;
     font-family: Inter;
